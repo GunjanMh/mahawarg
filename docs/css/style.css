@@ -1,0 +1,48 @@
+body {
+    font-family: 'Space Mono', monospace; /* Use Space Mono, fallback to monospace */
+    margin: 20px; /* Add some margin around the content */
+    line-height: 1.6; /* Improve readability */
+    display: flex; /* Essential for sticky footer */
+    flex-direction: column; /* Essential for sticky footer */
+    min-height: 100vh; /* Essential for sticky footer */
+}
+main {
+    flex: 1; /* Key for sticky footer: main takes up available space */
+    margin: 20px; /* Add margin to main content, not body */
+    line-height: 1.6;
+}
+h1 {
+    font-size: 2em; /* Make the title larger */
+    margin-bottom: 10px;
+}
+.post {
+    margin-bottom: 20px; /* Spacing between posts */
+}
+.post-title {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+}
+.post-date {
+    color: #32342f; /* Slightly grayed-out date */
+    font-size: 0.9em;
+    margin-bottom: 10px;
+}
+a {
+    color: rgb(94, 94, 176); /* Make links blue */
+    text-decoration: none; /* Remove underlines from links */
+}
+a:hover {
+    text-decoration: underline; /* Add underline on hover */
+}
+footer {
+    background-color: #f0f0f0; /* Example background color */
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+    position: relative; /* For sticky footer */
+    margin-top: auto; /* For sticky footer */
+}
+
+.license {
+    text-align: center;
+}
