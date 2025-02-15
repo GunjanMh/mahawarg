@@ -5,56 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mahawar G</title>
     <link href="https://fonts.googleapis.com/css2?family=Space+Mono&display=swap" rel="stylesheet">
-    <style>
-        body {
-            font-family: 'Space Mono', monospace; /* Use Space Mono, fallback to monospace */
-            margin: 20px; /* Add some margin around the content */
-            line-height: 1.6; /* Improve readability */
-            display: flex; /* Essential for sticky footer */
-            flex-direction: column; /* Essential for sticky footer */
-            min-height: 100vh; /* Essential for sticky footer */
-        }
-        main {
-            flex: 1; /* Key for sticky footer: main takes up available space */
-            margin: 20px; /* Add margin to main content, not body */
-            line-height: 1.6;
-        }
-        h1 {
-            font-size: 2em; /* Make the title larger */
-            margin-bottom: 10px;
-        }
-        .post {
-            margin-bottom: 20px; /* Spacing between posts */
-        }
-        .post-title {
-            font-size: 1.2em;
-            margin-bottom: 5px;
-        }
-        .post-date {
-            color: #32342f; /* Slightly grayed-out date */
-            font-size: 0.9em;
-            margin-bottom: 10px;
-        }
-        a {
-            color: rgb(94, 94, 176); /* Make links blue */
-            text-decoration: none; /* Remove underlines from links */
-        }
-        a:hover {
-            text-decoration: underline; /* Add underline on hover */
-        }
-        footer {
-            background-color: #f0f0f0; /* Example background color */
-            padding: 10px;
-            text-align: center;
-            width: 100%;
-            position: relative; /* For sticky footer */
-            margin-top: auto; /* For sticky footer */
-        }
-
-        .license {
-            text-align: center;
-        }
-    </style>
+    <link rel="stylesheet" href="docs/css/style.css">
 </head>
 <body>
     <header>
@@ -81,9 +32,8 @@
 
         </main>
         <footer>
-            <div class = "license">
-                <p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://gunjanmh.github.io/mahawarg/">Mahawar G</a> by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://github.com/GunjanMh">Gunjan Mahawar</a> is licensed under <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY-NC-ND 4.0<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/nd.svg?ref=chooser-v1" alt=""></a></p>
-            </div>
-        </footer>
+            <div id="license-container"></div>  </footer>
+
+  <script src="docs/license.js"></script>
 </body>
 </html>
