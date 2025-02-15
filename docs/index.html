@@ -10,6 +10,14 @@
             font-family: 'Space Mono', monospace; /* Use Space Mono, fallback to monospace */
             margin: 20px; /* Add some margin around the content */
             line-height: 1.6; /* Improve readability */
+            display: flex; /* Essential for sticky footer */
+            flex-direction: column; /* Essential for sticky footer */
+            min-height: 100vh; /* Essential for sticky footer */
+        }
+        main {
+            flex: 1; /* Key for sticky footer: main takes up available space */
+            margin: 20px; /* Add margin to main content, not body */
+            line-height: 1.6;
         }
         h1 {
             font-size: 2em; /* Make the title larger */
